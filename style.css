@@ -1,0 +1,95 @@
+:root {
+    --primary:  rgba(253,187,45,1) 100%;
+    --second:  rgba(34,193,195,1);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: "inter"; 
+
+}
+
+.body {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    height: 10vb;
+   
+}
+
+.logo {
+   display: flex;
+ }
+
+.slogan {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: solid;
+
+}
+
+.buscar input {
+    width: 240px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+
+.opciones a {
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: solid;
+    transition: background-color .3s;
+}
+.opciones  a:hover {
+    background-color: var(--second);
+    border-radius: 50px;
+  }
+
+
+.navmarca {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(253,187,45,1);
+    height: 4vb;
+ }
+
+ .navmarca a {
+    color: black;
+    text-decoration: solid;
+    transition: background-color .3s;
+
+    
+ }
+.navmarca  a:hover {
+    background-color: var(--second);
+    border-radius: 50px;
+
+  }
+
+  #item_blue {
+    background-color: var(--second);
+    border-radius: 50px;
+     }
+
